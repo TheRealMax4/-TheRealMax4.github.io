@@ -1,0 +1,38 @@
+*{
+    font-family: Space Grotesk,sans-serif;
+}
+
+.titleContainer{
+    display: flex;
+    font-weight: 700;
+    font-size: 3rem;
+    padding: 2rem;
+    margin: auto;
+}
+.titleContainer h1{
+    text-align: center;
+    color: white;
+    padding: 3rem;
+}
+.titleContainer span {
+    text-align: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(25deg,#2600fc,#ff00ea);
+    color: transparent;
+}
+
+.logoBounce{
+    animation: bounce 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+    from {
+        transform: translate3d(0, 0, 0);
+    }
+    to {
+        transform: translate3d(0, 100px, 0);
+    }
+}

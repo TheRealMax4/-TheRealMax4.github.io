@@ -1,0 +1,55 @@
+*{
+    font-weight: 700;
+}
+.cardProjectsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    column-gap: 10px;
+    padding: 6rem;
+}
+
+.card{
+    padding: 20px;
+    flex: 33% 0;
+    border: 10px solid;
+    border-radius: 20px;
+    border-image: linear-gradient(25deg,#2600fc,#ff00ea) 1;
+    background-color: #130749;
+    margin: auto;
+}
+
+.card img{
+    width: 100%;
+    margin: auto;
+}
+.card-body{
+    background-color: #130749;
+}
+.card-title{
+    color: black;
+    background-color: #130749;
+}
+.spanTitleproject{
+    background-image: linear-gradient(25deg,#2600fc,#ff00ea);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+.card-text{
+    color: white;
+    background-color: #130749;
+}  
+
+.card-text ul li{
+    display: flex;
+
+   
+}
+
+.card-text ul li::before{
+    align-self: center;
+    content: "✅";
+    display: inline-block;
+    margin-right: 0.2rem;
+}

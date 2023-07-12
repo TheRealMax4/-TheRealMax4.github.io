@@ -1,0 +1,27 @@
+.meCardContainer{
+    margin: auto;
+    display: flex;
+}
+
+.meCardContainer div{
+    padding: 4rem;
+}
+
+.imgContainer img{
+    border-radius: 20px;
+}
+
+.textContainer ul {
+    list-style: none;
+}
+
+.textContainer ul li{
+    display: flex;
+}
+
+.textContainer ul li::before {
+    align-self: center;
+    content: "✅";
+    display: inline-block;
+    margin-right: 0.2rem;
+}
